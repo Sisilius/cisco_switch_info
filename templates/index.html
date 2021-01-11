@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Меню</title>
+</head>
+<body>
+    <!-- <input type="text" placeholder="test" id="1">
+    <input type="text"> -->
+    <form method="POST"  target="_blank">
+        <div>
+            <input type="text" name="ip" id="ip" placeholder="IP address" style="border: 2px solid red;">
+            <input type="text" name="port" id="port" placeholder="Port" value="22">
+            <input type="text" name="login" id="login" placeholder="login" style="border: 2px solid red;">
+            <input type="text" name="password" id="password" placeholder="Password" style="border: 2px solid red;">
+            <input type="text" name="secret" id="secret" placeholder="Secret (for 'enable')">
+        </div>
+        <br>
+        <div>
+            <input type="submit" value="Получить версию" name="get_ver" id="get_ver">
+            <input type="submit" value="Получить стартовую конфигурацию" name="get_start_conf">
+            <input type="submit" value="Получить текущую конфигурацию" name="get_cur_conf">
+            <input type="submit" value="Получить сведенья о списках контроля доступа" name="get_acl">
+            <input type="submit" value="Получить сведенья об интерфейсах коммутатора" name="get_int">
+        </div>
+    </form>
+</body>
+</html>
